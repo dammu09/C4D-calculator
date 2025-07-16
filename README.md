@@ -1,97 +1,140 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# C4D Calculator 📱💰
 
-# Getting Started
+A comprehensive financial calculator app built with React Native, designed to help users calculate loan payments, analyze debt-to-income ratios, and make informed financial decisions.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+I mainly built it for my relative who is running a mortage business. If you are also the one please be free to use it
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 🚀 Features
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 📊 Loan Calculator
+- **Loan Amount Input**: Calculate payments for any loan amount
+- **Interest Rate Configuration**: Flexible interest rate input with percentage display
+- **Loan Term Selection**: Set loan duration in years and months
+- **Extra Payments**: Optional additional payments to reduce loan term and interest
+- **Real-time Calculations**: Instant results as you modify inputs
 
-```sh
-# Using npm
-npm start
+### 💳 Payment Analysis
+- **Monthly Payment Calculation**: Accurate monthly payment amounts
+- **Total Cost Breakdown**: Complete loan cost analysis including principal and interest
+- **Interest Savings**: Calculate potential savings with extra payments
+- **Time Savings**: See how extra payments reduce loan duration
+- **Comparative Analysis**: Before and after scenarios with extra payments
 
-# OR using Yarn
-yarn start
-```
+### 📈 Debt-to-Income (DTI) Calculator
+- **Income Input**: Enter gross monthly income
+- **Debt Management**: Add and manage multiple debt payments
+- **DTI Ratio Calculation**: Real-time debt-to-income ratio analysis
+- **Loan Qualification**: Maximum and recommended loan payment suggestions
+- **Credit Assessment**: Qualification status based on DTI ratios
+- **Industry Guidelines**: Built-in DTI ratio guidelines for financial health
 
-## Step 2: Build and run your app
+### 📋 Amortization Schedule
+- **Detailed Payment Breakdown**: Month-by-month payment analysis
+- **Principal vs Interest**: Clear separation of principal and interest payments
+- **Remaining Balance**: Track outstanding loan balance over time
+- **Export Functionality**: Save and share amortization schedules
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 💾 Data Management
+- **Save Loans**: Store multiple loan scenarios for comparison
+- **Loan History**: Access previously calculated loans
+- **Data Persistence**: Secure local storage of financial data
+- **Export Options**: Share loan calculations and schedules
 
-### Android
+### ⚙️ Settings & Customization
+- **Dark Mode Support**: Toggle between light and dark themes
+- **Currency Selection**: Multiple currency support (USD default)
+- **Security Features**: Optional passcode protection for sensitive data
+- **Data Privacy**: Clear all data option for privacy protection
+- **Mortgage Application**: Quick access to mortgage application resources
 
-```sh
-# Using npm
-npm run android
+---
 
-# OR using Yarn
-yarn android
-```
+## 🛠️ Technical Features
 
-### iOS
+### Built With
+- **React Native**: Cross-platform mobile development
+- **Modern UI/UX**: Clean, intuitive interface design
+- **Responsive Design**: Optimized for various screen sizes
+- **Performance Optimized**: Smooth calculations and navigation
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### Key Capabilities
+- **Real-time Calculations**: Instant financial computations
+- **Data Validation**: Input validation for accurate results
+- **Local Storage**: Secure data persistence
+- **Cross-platform**: iOS and Android compatibility
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+---
 
-```sh
-bundle install
-```
+## 📱 App Navigation
 
-Then, and every time you update your native dependencies, run:
+The app features a tab-based navigation system with five main sections:
 
-```sh
-bundle exec pod install
-```
+1. **Calculator**: Main loan calculation interface
+2. **DTI Calculator**: Debt-to-income analysis tools
+3. **Amortization**: Detailed payment schedules
+4. **Saved Loans**: Stored loan scenarios
+5. **Settings**: App configuration and preferences
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+---
 
-```sh
-# Using npm
-npm run ios
+## 🎯 Use Cases
 
-# OR using Yarn
-yarn ios
-```
+### For Homebuyers
+- Calculate mortgage payments and affordability
+- Analyze DTI ratios for loan qualification
+- Compare different loan scenarios
+- Plan extra payments to reduce mortgage term
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+### For Financial Planning
+- Evaluate loan options and terms
+- Understand total cost of borrowing
+- Plan debt consolidation strategies
+- Track debt-to-income improvements
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+### For Financial Professionals
+- Quick loan calculations for clients
+- DTI analysis for loan pre-qualification
+- Generate amortization schedules
+- Compare multiple loan scenarios
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
+## 🔒 Privacy & Security
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+- **Local Data Storage**: All calculations stored locally on device
+- **Optional Security**: Passcode protection available
+- **Data Control**: Users can clear all data at any time
+- **No Data Sharing**: Financial information remains private
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+---
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+## 📊 DTI Guidelines
 
-## Congratulations! :tada:
+The app includes industry-standard DTI ratio guidelines:
 
-You've successfully run and modified your React Native App. :partying_face:
+- **0-20%**: Excellent - Low debt risk
+- **21-36%**: Good - Manageable debt level
+- **37-43%**: Fair - Approaching limit
+- **44%+**: Poor - High debt risk
 
-### Now what?
+---
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+## 🚀 Getting Started
 
-# Troubleshooting
+1. Clone the repository
+2. Install dependencies with `npm install` or `yarn install`
+3. Run the app with `npm start` or `yarn start`
+4. Follow React Native setup instructions for your platform
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
+## 🤝 Contributing
 
-To learn more about React Native, take a look at the following resources:
+Contributions are welcome! Please feel free to submit pull requests or report issues.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+---
+
+*Built with ❤️ for better financial decision-making*
